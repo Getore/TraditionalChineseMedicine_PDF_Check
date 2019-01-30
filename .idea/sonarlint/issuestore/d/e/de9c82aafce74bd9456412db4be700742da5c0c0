@@ -1,0 +1,6 @@
+
+_squid:S1075"ARefactor your code to get this URI from a customizable parameter.(”½ÕË8œ¶ÊØ†-
+Fsquid:S1148$"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8šõÈØ†-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ó¹›¶úÿÿÿÿ8œ¶ÊØ†-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ãïş¨øÿÿÿÿ8šõÈØ†-
