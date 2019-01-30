@@ -33,9 +33,11 @@ public class TxtToMysql {
             //编码方式UTF-8，防止中文乱码
             BufferedReader bufferedR = new BufferedReader(isr);
             String temp_string = null;        //临时存储每行数据
+            int id = 0;  // id
+
             while ((temp_string = bufferedR.readLine()) != null) { //遍历目标文档每行
                 //System.out.println(temp_string);
-                // TODO 2.注释由于换行导致保存不完整问题；3.增加id编号；
+                // TODO 2.注释由于换行导致保存不完整问题；
                 temp_string = temp_string.replaceAll(" ", ""); // 实现无空格存入数据库
 
                 if (temp_string.startsWith("[")) {
@@ -45,10 +47,10 @@ public class TxtToMysql {
                     if (table_list.length >= 2) {
                         System.out.println(table_list[0]);
                         System.out.println(table_list[1]);
-                        new_member = "insert into mytable( name, content ) values(' " + table_list[0] + " ',' " + table_list[1] + " ')";
+                        new_member = "insert into mytable(id, name, content ) values('"+ id++ +"', ' " + table_list[0] + " ',' " + table_list[1] + " ')";
                     } else {
                         System.out.println(table_list[0]);
-                        new_member = "insert into mytable( name, content ) values('" + table_list[0] + "',' ')";
+                        new_member = "insert into mytable(id, name, content ) values('"+ id++ +"', '" + table_list[0] + "',' ')";
                     }
                     sql.executeUpdate(new_member);
                 }
