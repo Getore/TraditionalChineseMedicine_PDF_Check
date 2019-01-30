@@ -1,20 +1,0 @@
-
-Fsquid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÇÕ†Î‡-
-jsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÃÌ„²ûÿÿÿÿ8½ó¸Û†-
-[
-squid:S106-"9Replace this use of System.out or System.err by a logger.(Óíø•úÿÿÿÿ8ÇÕ†Î‡-
->squid:S2068" Remove this hard-coded password.(ßƒõÄ8½ó¸Û†-
-[
-squid:S106,"9Replace this use of System.out or System.err by a logger.(¥¨›ßÿÿÿÿÿ8½ó¸Û†-
-jsquid:S2095""LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‚‹óƒ8ÇÕ†Î‡-
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›–Ñşÿÿÿÿ8½ó¸Û†-
-fsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ßƒõÄ8½ó¸Û†-
-nsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(¿‹±òıÿÿÿÿ8‚èÎ‡-
-psquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯É²8ÇÕ†Î‡-
-msquid:S2095 "OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(µëù8½ó¸Û†-
-psquid:S20773"RUse a variable binding mechanism to construct this query instead of concatenation.(—— 8ÇÕ†Î‡-
-Psquid:S1135&"2Complete the task associated to this TODO comment.(İÕğ8—ü›½‰-
-dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(›–Ñşÿÿÿÿ8Î¸¹Û†-
-[
-squid:S1060"9Replace this use of System.out or System.err by a logger.(¥¨›ßÿÿÿÿÿ8ÇÕ†Î‡-
-tsquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(êàï±8Î³Û†-

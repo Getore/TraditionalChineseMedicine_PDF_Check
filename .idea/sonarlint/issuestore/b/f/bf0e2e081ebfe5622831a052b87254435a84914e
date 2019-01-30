@@ -1,14 +1,0 @@
-
-esquid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Œû”–8µçşÛ†-
-Csquid:S2068" Remove this hard-coded password.(ÏÚŸÅşÿÿÿÿ8å¨şÛ†-
-jsquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ8µçşÛ†-
-V
-squid:S106 "9Replace this use of System.out or System.err by a logger.(Çæàş8å¨şÛ†-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì¨şÿÿÿÿ8å¨şÛ†-
-ksquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ8å¨şÛ†-
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(¹¡è«ÿÿÿÿÿ8å¨şÛ†-
-ysquid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(–ŸèÀúÿÿÿÿ8å¨şÛ†-
-[
-squid:S106%"9Replace this use of System.out or System.err by a logger.(õ‹Ş¾şÿÿÿÿ8å¨şÛ†-
