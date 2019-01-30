@@ -35,14 +35,13 @@ public class TxtToMysql {
             String temp_string = null;        //临时存储每行数据
             while ((temp_string = bufferedR.readLine()) != null) { //遍历目标文档每行
                 //System.out.println(temp_string);
-                // TODO 1.无空格存入数据库；2.注释由于换行导致保存不完整问题；3.增加id编号；
-                temp_string = temp_string.trim(); // 去除字符串前面和后面的空格
+                // TODO 2.注释由于换行导致保存不完整问题；3.增加id编号；
+                temp_string = temp_string.replaceAll(" ", ""); // 实现无空格存入数据库
+
                 if (temp_string.startsWith("[")) {
-
-                    String[] table_list = temp_string.split("]      ");//先分割
+                    String[] table_list = temp_string.split("]");//先分割
                     table_list[0] = table_list[0].substring(1);
-
-                    String new_member = "";
+                    String new_member = "";  // 用来存储 SQL 语句
                     if (table_list.length >= 2) {
                         System.out.println(table_list[0]);
                         System.out.println(table_list[1]);
@@ -60,15 +59,5 @@ public class TxtToMysql {
             e.printStackTrace();
         }
     }
-
-    /**
-     * 去除中间的空格
-     * 去除前后面的空格可用 -> Strim()方法
-     *
-     * @return
-     */
-/*    public String deteleSpace(){
-        if ()
-    }*/
 
 }
