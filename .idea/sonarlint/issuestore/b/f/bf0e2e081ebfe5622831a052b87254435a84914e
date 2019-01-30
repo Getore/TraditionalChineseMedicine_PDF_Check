@@ -1,0 +1,14 @@
+
+rsquid:S2068"V'password' detected in this expression, review this potentially hard-coded credential.(–ŸèÀúÿÿÿÿ
+<squid:S2068" Remove this hard-coded password.(ÏÚŸÅşÿÿÿÿ
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ùÃ›ßúÿÿÿÿ
+dsquid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ÏÚŸÅşÿÿÿÿ
+^squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Œû”–
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì¨şÿÿÿÿ
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Çæàş
+T
+squid:S106%"9Replace this use of System.out or System.err by a logger.(õ‹Ş¾şÿÿÿÿ
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(¹¡è«ÿÿÿÿÿ
