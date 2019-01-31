@@ -17,7 +17,7 @@ public class ExtractText {
         //创建PdfDocument实例
         PdfDocument doc = new PdfDocument();
         //加载PDF文件
-        doc.loadFromFile("F:\\Trainee\\ideaIU-2018.2\\readpdf\\src\\pdf\\test.pdf");
+        doc.loadFromFile("F:\\Trainee\\ideaIU-2018.2\\TraditionalChineseMedicine_PDF_Check\\src\\pdf\\test.pdf");
         StringBuilder sb = new StringBuilder();
         PdfPageBase page;
         //遍历PDF页面，获取文本
@@ -28,7 +28,7 @@ public class ExtractText {
         FileWriter writer;
         try {
             //将文本写入文本文件
-            writer = new FileWriter("F:\\Trainee\\ideaIU-2018.2\\readpdf\\src\\txt\\test.txt");
+            writer = new FileWriter("F:\\Trainee\\ideaIU-2018.2\\TraditionalChineseMedicine_PDF_Check\\src\\txt\\test.txt");
             writer.write(sb.toString());
             writer.flush();
         } catch (IOException e) {

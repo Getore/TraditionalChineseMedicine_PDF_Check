@@ -22,7 +22,7 @@ public class TxtToMysql {
 
     public static void main(String[] args) {
 
-        File file_name = new File("F:\\Trainee\\ideaIU-2018.2\\readpdf\\src\\txt\\test.txt");
+        File file_name = new File("F:\\Trainee\\ideaIU-2018.2\\TraditionalChineseMedicine_PDF_Check\\src\\txt\\test.txt");
 
         try {
             Class.forName("com.mysql.jdbc.Driver");//加载驱动
