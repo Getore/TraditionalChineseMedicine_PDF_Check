@@ -31,27 +31,36 @@ public class TxtToMysql {
 
             InputStreamReader isr = new InputStreamReader(new FileInputStream(file_name));
             BufferedReader bufferedR = new BufferedReader(isr);
-            String temp_string = null;        //临时存储每行数据
+            String temp_string = null;        // 将读取的每一行，临时存储每行数据
+            String temp = null;
             int id = 0;  // 数据库中的 id
 
             while ((temp_string = bufferedR.readLine()) != null) { //遍历目标文档每行
-                // TODO 1.注释由于换行导致保存不完整问题；
+
                 temp_string = temp_string.replaceAll(" ", ""); // 实现无空格存入数据库
                 if (temp_string.startsWith("[")) {
-                    String[] table_list = temp_string.split("]");//先分割
-                    table_list[0] = table_list[0].substring(1);
-                    String new_member = "";  // 用来存储 SQL 语句
-                    if (table_list.length >= 2) {
-                        System.out.println(table_list[0]);
-                        System.out.println(table_list[1]);
-                        new_member = "insert into mytable(id, name, content ) values('"+ id++ +"', ' " + table_list[0] + " ',' " + table_list[1] + " ')";
-                    } else {
-                        System.out.println(table_list[0]);
-                        new_member = "insert into mytable(id, name, content ) values('"+ id++ +"', '" + table_list[0] + "',' ')";
+                    String[] table_row = temp_string.split("]");//先分割
+                    table_row[0] = table_row[0].substring(1);   // substring(num) 表示去掉num个字符后，输出剩下的字符串；substring(num1, num2) 表示输出num1 - num2的字符（num1显示，num2不显示）。
+
+//                    System.out.println(table_row[0]);
+//                    System.out.println(table_row[1]);
+
+                    if (temp_string.startsWith("[注释]")){
+                        temp = table_row[1];
                     }
+
+                    String new_member = "insert into mytable(id, name, content ) values('"+ id++ +"', ' " + table_row[0] + " ',' " + table_row[1] + " ')";
+                    sql.executeUpdate(new_member);
+                }
+
+                if (temp_string.startsWith("[") != true && temp_string.contains("。")){
+                    int num = id - 1;
+                    temp += temp_string;   // 进行拼接
+                    String new_member = "UPDATE mytable SET content = '"+ temp +"' WHERE id = '"+ num +"'";
                     sql.executeUpdate(new_member);
                 }
             }
+
             bufferedR.close();
             isr.close();
         } catch (Exception e) {

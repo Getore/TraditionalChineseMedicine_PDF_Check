@@ -17,3 +17,5 @@ X
 src/txt/test.txt,7\f\7f9a86a823e9bc5b0e9166e76464ebd67027c67f
 H
 src/main/TxtToMysql.java,5\3\53585df68a1a3e6b29ddd089be6dc836739bfa3b
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
