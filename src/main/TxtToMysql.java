@@ -54,8 +54,8 @@ public class TxtToMysql {
                 }
 
                 if (temp_string.startsWith("[") != true && temp_string.contains("。")){
-                    int num = id - 1;
-                    temp += temp_string;   // 进行拼接
+                    int num = id - 1;   // 因为id++的缘故，此时id已经在下一行，所以需要 -1；
+                    temp += temp_string;   // 进行拼接，存放到数据库；
                     String new_member = "UPDATE mytable SET content = '"+ temp +"' WHERE id = '"+ num +"'";
                     sql.executeUpdate(new_member);
                 }
