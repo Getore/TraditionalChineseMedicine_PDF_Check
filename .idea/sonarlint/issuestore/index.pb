@@ -19,3 +19,5 @@ H
 src/main/TxtToMysql.java,5\3\53585df68a1a3e6b29ddd089be6dc836739bfa3b
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+I
+src/main/DeleteSpace.java,f\8\f8768ddcb72609c8162697bd2c4ba8b5b8d3a8df
