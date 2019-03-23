@@ -23,7 +23,7 @@ public class TestConnectMySQL {
             if (!con.isClosed()) {
                 System.out.println("数据库连接成功");
             }
-            Statement statement = con.createStatement();
+/*            Statement statement = con.createStatement();
             String sql = "select * from mytable;";//我的表格叫home
             ResultSet resultSet = statement.executeQuery(sql);
             String name;
@@ -31,7 +31,7 @@ public class TestConnectMySQL {
                 name = resultSet.getString("name");
                 System.out.println("姓名：" + name);
             }
-            resultSet.close();
+            resultSet.close();*/
             con.close();
         } catch (ClassNotFoundException e) {
             System.out.println("数据库驱动没有安装");
