@@ -25,9 +25,9 @@ public class TxtToMysql {
         File file_name = new File("F:\\Trainee\\ideaIU-2018.2\\TraditionalChineseMedicine_PDF_Check\\src\\txt\\test.txt");
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");//加载驱动
+            Class.forName("com.mysql.jdbc.Driver");     //加载驱动
             Connection con = DriverManager.getConnection(URL, USER, PASSWORD);//加载数据库
-            Statement sql = con.createStatement();//数据库连接
+            Statement sql = con.createStatement();      //数据库连接
 
             InputStreamReader isr = new InputStreamReader(new FileInputStream(file_name));
             BufferedReader bufferedR = new BufferedReader(isr);
