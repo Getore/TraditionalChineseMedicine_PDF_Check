@@ -1,18 +1,18 @@
 
-psquid:S2077<"RUse a variable binding mechanism to construct this query instead of concatenation.(—— 8•åõŒŠ-
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šˆåÚûÿÿÿÿ
-:squid:S1643:"Use a StringBuilder instead.(Ä¹¼ç8•åõŒŠ-
-csquid:S2095!"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÿ³€
-_squid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ßƒõÄ
-msquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(êàï±
-nsquid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş—œ¹øÿÿÿÿ
 ]squid:S1075"ARefactor your code to get this URI from a customizable parameter.(šˆåÚûÿÿÿÿ
-Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ã„öŒŠ-
-7squid:S2068" Remove this hard-coded password.(ßƒõÄ
-Ksquid:S11258"(Remove the literal "true" boolean value.(´à¹‰ıÿÿÿÿ8ƒÙŒŠ-
-csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÃÌ„²ûÿÿÿÿ
-osquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÚåR8ş™«ŒŠ-
-psquid:S20775"RUse a variable binding mechanism to construct this query instead of concatenation.(—— 8§£·ŒŠ-
-usquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌºÑñıÿÿÿÿ8§£·ŒŠ-
-psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤×Â8•åõŒŠ-
+csquid:S2095!"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ÿ³€
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šˆåÚûÿÿÿÿ
+nsquid:S00117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş—œ¹øÿÿÿÿ
+usquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌºÑñıÿÿÿÿ8§ÖÕš-
+msquid:S2068"V'PASSWORD' detected in this expression, review this potentially hard-coded credential.(êàï±
 nsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(ÔÆÉ¦ûÿÿÿÿ8ğÁŠ-
+csquid:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(ÃÌ„²ûÿÿÿÿ
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§ÖÕš-
+psquid:S20775"RUse a variable binding mechanism to construct this query instead of concatenation.(—— 8§ÖÕš-
+Ksquid:S11258"(Remove the literal "true" boolean value.(´à¹‰ıÿÿÿÿ8§ÖÕš-
+osquid:S00117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÚåR8ş™«ŒŠ-
+_squid:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(ßƒõÄ
+psquid:S00117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤×Â8§ÖÕš-
+:squid:S1643:"Use a StringBuilder instead.(Ä¹¼ç8§ÖÕš-
+7squid:S2068" Remove this hard-coded password.(ßƒõÄ
+psquid:S2077<"RUse a variable binding mechanism to construct this query instead of concatenation.(—— 8§ÖÕš-
